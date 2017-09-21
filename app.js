@@ -34,7 +34,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/', function(req, res){
-  res.render('index', { season: 'summer'});
+  res.render('index', { season: 'winter'});
 });
 
 app.get('/trips', function(req, res) {
