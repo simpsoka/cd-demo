@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	.content
+		each trip in trips
+			li.media
+				img(src=trip.thumbnail_url class="trip_thumbnail")
+
+				.content
+					strong.title!= trip.title
+					span!= trip.pretty_date
+					if trip.can_register
+						a(href="/reservations/new?trip_id=" + trip.id) Reserve

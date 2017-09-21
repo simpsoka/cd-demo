@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+	background: #e2f7f7;
+}
+
+img {
+	max-width: 100%;
+}
+
+.content {
+	color: 404040;
+	font-size: 2em;
+}

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	.content
+		h1 Reserve
+		p!= name
+		form(action="/reservations/new" method="post")
+			select(name="trip_id")
+				for trip in trips
+					option(value=trip.id, selected=trip.id == trip_id)!= trip.title
+
+			input(type="text" name="name" placeholder="Name")
+			input(type="email" name="email" placeholder="email@address.com")
+			input(type="submit" value="Reserve Now")

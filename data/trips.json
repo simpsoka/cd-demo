@@ -1,0 +1,23 @@
+{"trips" : [
+  {
+  	 "title": "Wolf Creek Heliskiing",
+  	 "pretty_date": "Christmas, 2016",
+  	 "thumbnail_url": "http://cdn.luex.com/cms/uploads/tx_templavoila/Heli_-_Last_Frontier_Heli_Skiing.jpg",
+     "can_register": true,
+     "id": 0
+  },
+  {
+  	 "title": "Mount Rainier Ice Caving",
+  	 "pretty_date": "January, 2017",
+  	 "thumbnail_url": "https://c2.staticflickr.com/6/5579/14932421947_a18281e563_b.jpg",
+  	 "can_register": false,
+     "id": 1
+  },
+  {
+  	 "title": "Yosemite Hut Traverse",
+  	 "pretty_date": "February, 2017",
+  	 "thumbnail_url": "https://yosemitepark.files.wordpress.com/2015/10/glacier-point-road-xc-ski-and-half-dome-1-crop-x600.jpg",
+  	 "can_register": true,
+     "id": 2
+  }
+]}

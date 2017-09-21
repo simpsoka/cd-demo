@@ -1,0 +1,24 @@
+{
+  "name": "intense-camping",
+  "scripts": {
+  },
+  "env": {
+    "DATABASE_URL": {
+      "description": "A postgres url specifying the host, port, credentials, etc.",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

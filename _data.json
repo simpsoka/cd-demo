@@ -1,0 +1,23 @@
+[
+  {
+  	 "trip_title": "Wolf Creek Heliskiing",
+  	 "trip_dates": "Christmas, 2016",
+     "trip_details": "Spend Christmas in a helicopter over Colorado!",
+  	 "thumbnail_url": "http://cdn.luex.com/cms/uploads/tx_templavoila/Heli_-_Last_Frontier_Heli_Skiing.jpg",
+  	 "status": "open"
+  },
+  {
+  	 "trip_title": "Mount Rainier Ice Caving",
+  	 "trip_dates": "January, 2017",
+     "trip_details": "Never been inside a glacier? This is your chance!",
+  	 "thumbnail_url": "https://c2.staticflickr.com/6/5579/14932421947_a18281e563_b.jpg",
+  	 "status": "closed"
+  },
+  {
+  	 "trip_title": "Yosemite Hut Traverse",
+  	 "trip_dates": "February, 2017",
+     "trip_details": "A Valentine's day trip for the outdoor couple <3",
+  	 "thumbnail_url": "https://yosemitepark.files.wordpress.com/2015/10/glacier-point-road-xc-ski-and-half-dome-1-crop-x600.jpg",
+  	 "status": "open"
+  }
+]
